@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.container{
+    /* border: 2px solid black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+h3{
+    margin: 10px 0px;
+}
+p{
+    margin: 10px 0px;
+
+}
+.form{
+    padding: 10px;
+    border: 2px solid black;
+
+}
+#First{
+    width: 300px;
+    margin-right: 50px;
+    height: 30px;
+}
+#Last{
+    width: 300px;
+    height: 30px;
+}
+#DOB{
+    width: 660px;
+    height: 30px;
+}
+ .em{
+    margin: 300px;
+}
+#Phone{
+    width: 300px;
+    height: 30px;
+}
+#email{
+    width: 300px;
+    height: 30px;
+    margin-left: 40px;
+}
+
+#add{
+    width: 660px;
+    height: 30px;
+}
+#note{
+    width: 660px;
+    height: 60px;
+}
+
+#sel{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+}
+
+
+#submit{
+   margin-left: 300px;
+   height: 30px;
+   width: 50px;
+   margin-top: 10px;
+   
+}
+

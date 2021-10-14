@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Verification Form</title>
+    <script src="js/function.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="form">
+            <h1>Enrollment Verification Form</h1>
+            <form action="" name="from" onsubmit="return(aman());">
+                <h3> Name:</h3>
+                <input type="text" name="irst" id="First" placeholder="First"> <input type="text" name="ast" id="Last"placeholder="Last">
+                <br>
+                <h3>DOB:</h3>
+                <input type="date" name="birth" id="DOB" placeholder="MM/DD/YYYY">
+                <br>
+                <br>
+
+                <span> Phone:</span> <span class="em">Email: </span><br>
+                <input type="number" name="phone" id="Phone" placeholder="###########">
+
+                <input type="email" name="email" id="email" placeholder="email">
+                <br>
+
+
+
+
+
+                <h3>Fax Number:</h3>
+                <input type="number" name="fax" id="add" >
+                <h3>Expected/Estimated graduation term and year</h3>
+                <input type="text" name="exp" id="add" >
+
+                <h3>Enrollment terms to be verified</h3>
+                <input type="text" name="term" id="add">
+
+                <p> how do you want to want verification sent?</p>
+                <input type="radio" id="yes" name="sent">
+                  <label for="yes">Fax</label> <br>
+                  <input type="radio" id="no" name="sent">
+                  <label for="no">Mail</label>
+
+                <br>
+
+
+
+                <h3> Name of Recipient</h3>
+                <input type="text" name="st" id="First" placeholder="First"> <input type="text" name="lat" id="Last"
+                    placeholder="Last">
+                <br>
+                <h3>Note or Comment to recipient</h3>
+                <textarea name="area" id="note" cols="50" rows="50"></textarea>
+                
+              
+                <h3>Provide street address or PO box of recipient</h3>
+                <input type="text" name="pro" id="add" >
+                <br>
+                <h3>Terms of services</h3>
+                <input type="checkbox" name="check" id="check"> <span> I agree to term of services</span>
+            
+<br>
+                <input type="submit" id="submit" value="submit">
+
+
+
+
+
+
+            </form>
+        </div>
+    </div>
+
+</body>
